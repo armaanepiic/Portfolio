@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
     /* background: #282c34; */
 }
-
+#dark-theme{
+    cursor: pointer;
+}
 .header {
     position: fixed;
     top: 1rem;
@@ -489,3 +491,45 @@ footer ul li a {
         gap: 1rem;
     }
 }
+
+/*  */
+/* Dark Theme Styles */
+body.dark-theme {
+    background-color: #282c34;
+    color: white;
+}
+
+body.dark-theme .header {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-theme .btn {
+    border: 2px solid white;
+}
+
+body.dark-theme .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+body.dark-theme .socials i {
+    color: white;
+}
+
+body.dark-theme footer {
+    background-color: #1c1c1c;
+        color: white;
+}
+body.dark-theme footer a{
+    color: white;
+}
+
+body.dark-theme .grid-card {
+    border-color: white;
+}
+
+body.dark-theme .project-card {
+    border-color: white;
+}
+
+/* Other elements can be added here for the dark theme */
