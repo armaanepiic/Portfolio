@@ -109,6 +109,7 @@ section {
 .about img {
     width: 30vw;
     border-radius: 50%;
+    border: 2px 
 }
 
 .info-box {
