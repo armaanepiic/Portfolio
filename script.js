@@ -12,3 +12,17 @@ const body = document.body;
 darkTheme.onclick = () => {
   body.classList.toggle("dark-theme"); // Toggle dark-theme class
 };
+
+document.getElementById("download-cv").addEventListener("click", function () {
+  // Google Drive direct download URL
+  const cvUrl =
+    "https://drive.google.com/uc?export=download&id=10NOva5pXGdmRYlgfUgr5M5RtTj8ia73L";
+
+  // Create a temporary <a> element to trigger the download
+  const a = document.createElement("a");
+  a.href = cvUrl;
+  a.download = "resume.pdf"; // This is the name the file will be saved as
+  a.click();
+});
+
+

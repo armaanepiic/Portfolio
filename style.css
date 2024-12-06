@@ -143,6 +143,8 @@ section {
     gap: 1rem;
 }
 
+
+
 .btn {
     border-radius: 3rem;
     padding: 0.5rem 1.5rem;
@@ -163,6 +165,10 @@ section {
     gap: 2rem;
 }
 
+.socials a:visited{
+    color: black;
+}
+
 .socials i {
     font-size: 2.5rem;
     cursor: pointer;
@@ -180,18 +186,12 @@ section {
     margin-bottom: 3rem;
 }
 
-.experiece-info {
+.experience-info {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
 }
-
-.skills img {
-    width: 30vw;
-    border-radius: 50%;
-}
-
 
 .grid {
     display: grid;
@@ -202,13 +202,14 @@ section {
 .grid-card {
     border: 2px solid black;
     border-radius: 3rem;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: baseline;
     justify-content: left;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    text-align: justify;
 }
 
 .grid-card:hover {
@@ -217,15 +218,20 @@ section {
     color: white;
 }
 
-.grid-card i {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+.grid-card a {
+    color: violet;
+}
+
+.grid-card a:hover {
+    color: white;
 }
 
 .grid-card span {
     font-size: 1.5rem;
     font-weight: 500;
-    background: linear-gradient(to right, #009dff, #ff00ff);
+    /* background: linear-gradient(to right, #009dff, #ff00ff); */
+    /* background: linear-gradient(to right, #ff9a8b, #ff6a88); */
+    background: linear-gradient(to right, #00b09b, #96c93d);
     background-clip: text;
     color: transparent;
 }
@@ -297,6 +303,9 @@ section {
     text-align: center;
     gap: 2rem;
     margin-top: 5rem;
+    border-radius: 3rem;
+    border: 2px solid black;
+    padding: 2rem 8rem;
 }
 
 .input-box input {
@@ -366,22 +375,10 @@ footer ul li a {
         gap: 3rem;
     }
 
-    .experiece-info {
+    .experience-info {
         flex-direction: column;
     }
 
-    .input-box input {
-        padding: 2rem 5rem;
-        font-size: 2.5rem;
-    }
-
-    .input-box input::placeholder {
-        font-size: 2.5rem;
-    }
-
-    .input-box i {
-        font-size: 2.5rem;
-    }
 }
 
 @media (max-width:768px) {
@@ -400,19 +397,6 @@ footer ul li a {
 
     .about-container {
         flex-direction: column;
-    }
-
-    .input-box input {
-        padding: 1rem 2rem;
-        font-size: 1.8rem;
-    }
-
-    .input-box input::placeholder {
-        font-size: 1.5rem;
-    }
-
-    .input-box i {
-        display: none;
     }
 
     .grid {
@@ -440,6 +424,13 @@ footer ul li a {
 
     header #menu-icon {
         display: block;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
     }
 
     .nav-links {
@@ -500,6 +491,10 @@ body.dark-theme .btn:hover {
     color: black;
 }
 
+body.dark-theme .input-box{
+    border: 2px solid white;
+}
+
 body.dark-theme .socials i {
     color: white;
 }
@@ -520,4 +515,13 @@ body.dark-theme .project-card {
     border-color: white;
 }
 
+body.dark-theme .grid-card img{
+    color-scheme: white;
+}
+
+body.dark-theme .grid-card a {
+    color: white;
+}
+
 /* Other elements can be added here for the dark theme */
+

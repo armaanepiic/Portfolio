@@ -23,6 +23,7 @@
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#competitive-programming">CP</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -36,7 +37,7 @@
     <section id="about" class="about">
         <div class="about-container">
             <img src="images/profile.png" alt="person">
-
+        
             <div class="info-box">
 
                 <div class="text">
@@ -45,14 +46,16 @@
                     <span>Frontend Developer</span>
                 </div>
                 
-                <div class="btn-group">
+                <!-- <div class="btn-group">
                     <div class="btn">Download CV</div>
-                    <div class="btn">Contact</div>
+                </div> -->
+                <div class="btn-group">
+                    <div class="btn" id="download-cv">Download CV</div>
                 </div>
 
                 <div class="socials">
-                    <i class="fa-brands fa-square-github"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://github.com/armaanepiic" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/armaanepiic/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -63,40 +66,109 @@
     <section id="skills" class="skills">
         
         <h2 class="section-title">Skills</h2>
-        <div class="experiece-info">
+        <div class="experience-info">
 
             <div class="grid">
                 <div class="grid-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                    <h3>Expert</h3>
+                    <p>Experience in writing semantic, accessible, and SEO-friendly HTML code. Skilled in building structured web
+                        pages with proper use of elements, forms, tables, and media embedding.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>Tailwind CSS</span>
+                    <h3>Advanced</h3>
+                    <p>Proficient in using Tailwind CSS for utility-first styling. Able to build responsive, maintainable, and
+                        highly customizable layouts using its utility classes and configuration.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                    <h3>Advanced</h3>
+                    <p>I've mastered the fundamentals of JavaScript, including variables, functions, loops, and arrays. I'm now applying my
+                        knowledge to build dynamic and interactive web applications.</p>
+
+                </div>
+                <div class="grid-card">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React</span>
+                    <h3>Intermediate</h3>
+                    <p>I'm currently learning React and diving into concepts like components, hooks, and state management to create
+                        efficient and scalable user interfaces.</p>
+
+                </div>
+                <div class="grid-card">
                     <i class="fa-solid fa-code"></i>
-                    <span>Frontend Develoment</span>
-                    <h3>3 Years</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque fuga id eius porro voluptatum sequi dicta at voluptatibus et natus dolor, consequatur molestiae aut eos vitae magni ullam suscipit?</p>
+                    <span>C++</span>
+                    <h3>Competitive Programming</h3>
+                    <p>I have strong proficiency in C++ through my participation in various online coding contests. I have developed
+                        problem-solving skills and a deep understanding of algorithms and data structures.</p>
                 </div>
                 <div class="grid-card">
-                    <i class="fa-solid fa-file-code"></i>
-                    <span>Graphics Design</span>
-                    <h3>3 Years</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque fuga id eius porro voluptatum sequi
-                        dicta at voluptatibus et natus dolor, consequatur molestiae aut eos vitae magni ullam suscipit?</p>
+                    <i class="fa-solid fa-pencil-alt"></i>
+                    <span>Figma Design</span>
+                    <h3>UI/UX Design</h3>
+                    <p>I am highly skilled in using Figma to design intuitive and user-friendly interfaces. I focus on creating visually
+                        appealing and functional designs that enhance the user experience.</p>
                 </div>
-                <div class="grid-card">
-                    <i class="fa-solid fa-laptop"></i>
-                    <span>System Design</span>
-                    <h3>3 Years</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque fuga id eius porro voluptatum sequi
-                        dicta at voluptatibus et natus dolor, consequatur molestiae aut eos vitae magni ullam suscipit?</p>
-                </div>
-                <div class="grid-card">
-                    <i class="fa-solid fa-list"></i>
-                    <span>Content Manager</span>
-                    <h3>3 Years</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque fuga id eius porro voluptatum sequi
-                        dicta at voluptatibus et natus dolor, consequatur molestiae aut eos vitae magni ullam suscipit?</p>
-                </div>
+
             </div>
-            <!-- <img src="images/profile.png" alt="person"> -->
         </div>
     </section>
+
+    <!-- competitive programming -->
+    <section id="competitive-programming" class="competitive-programming">
+        <h2 class="section-title">Competitive Programming</h2>
+        <div class="experience-info">
+    
+            <div class="grid">
+                <div class="grid-card">
+                    <!-- <i class="fa-brands fa-code"></i> -->
+                    <img src="images/code-forces.png" alt="">
+                    <span>Codeforces</span>
+                    <h3>Handle: <a href="https://codeforces.com/profile/armaanepiic" target="_blank">armaanepiic</a></h3>
+                    
+                    <ul>
+                        <li>Max Rating: 1004</li>
+                        <li>Contests Participated: 101</li>
+                    </ul>
+                </div>
+    
+                <div class="grid-card">
+                    <img style="width: 35px;height: 35px;border-radius: 100%;" src="images/atcoder-Photoroom.png" alt="">
+                    <span>Atcoder</span>
+                    <h3>Handle: <a href="https://atcoder.jp/users/armaanepiic" target="_blank">armaanepiic</a></h3>
+                    <ul>
+                        <li>Max Rating: 118</li>
+                        <li>Contests Participated: 56</li>
+                    </ul>
+                </div>
+    
+                <div class="grid-card">
+                    <img style="width: 35px;height: 35px;" src="images/cc.png" alt="">
+                    <span>Codechef</span>
+                    <h3>Handle: <a href="https://www.codechef.com/users/armaanepiic" target="_blank">armaanepiic</a></h3>
+                    <ul>
+                        <li>Max Rating: 2*</li>
+                        <li>Contests Participated: 24</li>
+                    </ul>
+                </div>
+    
+                <div class="grid-card">
+                    <img style="width: 35px;height: 35px;" src="images/stopstalk-logo.png" alt="">
+                    <span>Stopstalk</span>
+                    <h3>Handle: <a href="https://www.stopstalk.com/users/armaanepiic" target="_blank">armaanepiic</a></h3>
+                    <p>Check my overall problem-solving history of various Online-Judges.
+                    </p>
+                </div>
+                
+            </div>
+    
+        </div>
+    </section>
+
 
     <!-- Projects -->
 
@@ -147,7 +219,7 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="contact">
+    <!-- <section id="contact" class="contact">
         <div class="input-box">
             <h2 class="section-title">Contact Me</h2>
             <div class="input">
@@ -156,7 +228,17 @@
             </div>
             <div class="btn">Submit</div>
         </div>
+    </section> -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="input-box">
+            <p><strong>Name:</strong> Arman Hossain</p>
+            <p><strong>Phone:</strong> +8801874015451</p>
+            <p><strong>Email:</strong> armaanepiic@gmail.com</p>
+            <p><strong>Address:</strong> Chattogram, Bangladesh.</p>
+        </div>
     </section>
+
 
     <!-- footer -->
     <footer>
