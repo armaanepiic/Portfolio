@@ -526,3 +526,142 @@ body.dark-theme .grid-card a {
 
 /* Other elements can be added here for the dark theme */
 
+/* Contact Form Section */
+/* Contact Form Section */
+.contact {
+    padding: 5rem 12%;
+    text-align: center;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-theme .contact {
+    background-color: #282c34;
+}
+
+.contact-form {
+    background: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-theme .contact-form {
+    background: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+body.dark-theme .section-title {
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+body.dark-theme .input-group label {
+    color: white;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #ddd;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    background-color: white;
+}
+
+body.dark-theme .input-group input,
+body.dark-theme .input-group textarea {
+    background-color: #444;
+    border-color: #666;
+    color: white;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #4A628A;
+}
+
+body.dark-theme .input-group input:focus,
+body.dark-theme .input-group textarea:focus {
+    border-color: #4A628A;
+    background-color: #555;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    margin-top: 2rem;
+}
+
+.submit-button input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #4A628A;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button input:hover {
+    background-color: #3b4f68;
+}
+
+body.dark-theme .submit-button input:hover {
+    background-color: #6C7B8A;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 3rem 5%;
+    }
+
+    .contact-form {
+        padding: 2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 0.9rem;
+    }
+
+    .submit-button input {
+        font-size: 1rem;
+    }
+}
