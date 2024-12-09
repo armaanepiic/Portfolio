@@ -8,9 +8,11 @@
     scroll-behavior: smooth;
     /* background: #282c34; */
 }
-#dark-theme{
+
+#dark-theme {
     cursor: pointer;
 }
+
 .header {
     position: fixed;
     top: 1rem;
@@ -165,8 +167,10 @@ section {
     display: flex;
     gap: 2rem;
 }
-
-.socials a:visited{
+.socials a{
+    color: black;
+}
+.socials a:visited {
     color: black;
 }
 
@@ -492,7 +496,7 @@ body.dark-theme .btn:hover {
     color: black;
 }
 
-body.dark-theme .input-box{
+body.dark-theme .input-box {
     border: 2px solid white;
 }
 
@@ -502,9 +506,10 @@ body.dark-theme .socials i {
 
 body.dark-theme footer {
     background-color: #1c1c1c;
-        color: white;
+    color: white;
 }
-body.dark-theme footer a{
+
+body.dark-theme footer a {
     color: white;
 }
 
@@ -516,7 +521,7 @@ body.dark-theme .project-card {
     border-color: white;
 }
 
-body.dark-theme .grid-card img{
+body.dark-theme .grid-card img {
     color-scheme: white;
 }
 
@@ -531,7 +536,7 @@ body.dark-theme .grid-card a {
 .contact {
     padding: 5rem 12%;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: white;
     transition: background-color 0.3s ease;
 }
 
@@ -540,7 +545,7 @@ body.dark-theme .contact {
 }
 
 .contact-form {
-    background: white;
+    background: #f1e8e8;
     padding: 3rem;
     border-radius: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -620,14 +625,16 @@ body.dark-theme .input-group textarea:focus {
 
 .submit-button {
     margin-top: 2rem;
+
 }
 
 .submit-button input {
     width: 100%;
     padding: 1rem;
     font-size: 1.2rem;
-    background-color: #4A628A;
-    color: white;
+    /* background-color: #4A628A; */
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -635,11 +642,18 @@ body.dark-theme .input-group textarea:focus {
 }
 
 .submit-button input:hover {
-    background-color: #3b4f68;
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in-out;
 }
 
-body.dark-theme .submit-button input:hover {
-    background-color: #6C7B8A;
+body.dark-theme .submit-button input{
+    background: #6C7B8A;
+    color: white;
+}
+body.dark-theme .submit-button input:hover{
+    background: white;
+        color: black;
 }
 
 /* Media Queries for Responsiveness */
@@ -665,3 +679,5 @@ body.dark-theme .submit-button input:hover {
         font-size: 1rem;
     }
 }
+/* project */
+

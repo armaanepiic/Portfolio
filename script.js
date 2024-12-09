@@ -16,7 +16,7 @@ darkTheme.onclick = () => {
 document.getElementById("download-cv").addEventListener("click", function () {
   // Google Drive direct download URL
   const cvUrl =
-    "https://drive.google.com/uc?export=download&id=10NOva5pXGdmRYlgfUgr5M5RtTj8ia73L";
+    "https://drive.google.com/file/d/1dim5rqUrCT3J3PL6A7kHnLp701-Zfqmc/view?usp=sharing";
 
   // Create a temporary <a> element to trigger the download
   const a = document.createElement("a");
